@@ -1,4 +1,4 @@
-## Capstone Project
+## AWS Academy Cloud Architecting 2.x - CapstoneProject
 
 ### Summary of the tasks:
 - Step 0:  Inspect the archtecture 00:02:23

@@ -25,14 +25,20 @@
 # Step 2: Get the Project Assets 
 1. Clone the repository:
 ```sh
-   git clone https://github.com/baselm/capstoneproject.git
+   git clone https://github.com/bantuajadulu/capstoneprojectACA.git
+   ```
    or 
+```sh
    wget https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-200-ACACAD-20-EN/capstone-project/Example.zip
+   ```
+   or
+```sh
+   wget https://github.com/bantuajadulu/capstoneprojectACA/blob/main/Example.zip
    ```
 2. Extract the files to the Apache www folder:
 ```sh
    chown ec2-user Example.zip
-   unzip Example.zip -d /var/www/html/
+   unzip -j Example.zip -d /var/www/html/
    ```
    
 # Step 3: Install a LAMP web server on Amazon Linux 2
@@ -111,6 +117,6 @@ Add the following parameters to the Parameter Store and set the correct values:
 1. /example/endpoint 
 2. /example/username   
 3. /example/password  
-4. /example/database exampledb
+4. /example/database
 
 

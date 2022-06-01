@@ -33,7 +33,7 @@
    ```
    or
 ```sh
-   wget https://github.com/bantuajadulu/capstoneprojectACA/blob/main/Example.zip
+   wget https://raw.githubusercontent.com/bantuajadulu/capstoneprojectACA/main/Example.zip
    ```
 2. Extract the files to the Apache www folder:
 ```sh
@@ -93,7 +93,7 @@ mysql -u admin -p --host <rds-endpoint>
  ```
  3. Test that you can access the RDS DB 
  ```sh
- use exampledb;	
+use exampledb;	
 show tables; 
 
  ```
@@ -106,7 +106,7 @@ mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql
 # Test the ALB 
 - Test data was imported 
 ```sh
- use exampledb;	
+use exampledb;	
 show tables; 
 select * from countrydata_final; 
  ```
